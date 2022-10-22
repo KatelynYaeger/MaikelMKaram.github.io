@@ -1,0 +1,62 @@
+/*==================================== Google Fonts ====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/*==================================== Colors ====================================*/
+/* HSL color mode */
+:root{
+    --home-bg-color: hsl(213, 24%, 93%);
+
+}
+
+
+/*==================================== Google Fonts ====================================*/
+
+
+/*==================================== * CSS ====================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*==================================== Navbar ====================================*/
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active {
+
+}
+
+/*==================================== Home section ====================================*/
+.home{
+    background: var(--home-bg-color) url("") no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.home h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
