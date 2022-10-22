@@ -5,9 +5,7 @@
 /* HSL color mode */
 :root{
     --home-bg-color: hsl(213, 24%, 93%);
-
 }
-
 
 /*==================================== Google Fonts ====================================*/
 
@@ -45,12 +43,8 @@
     text-decoration: none;
 }
 
-.active {
-
-}
-
 /*==================================== Home section ====================================*/
-.home{
+.home {
     background: var(--home-bg-color) url("") no-repeat;
     background-size: cover;
     width: 100vw;
@@ -59,4 +53,15 @@
 .home h3{
     font-size: 4.4rem;
     font-weight: 700;
+}
+
+.home h6{
+    line-height: 1;
+    border-bottom: 3px solid red;
+    width: 120%;
+}
+
+
+#\& {
+    font-family: cursive;
 }
