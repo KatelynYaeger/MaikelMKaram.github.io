@@ -5,6 +5,7 @@
 /* HSL color mode */
 :root{
     --home-bg-color: hsl(213, 24%, 93%);
+    --about-bg-color: hsl(230, 69%, 10%);
 }
 
 /*==================================== Google Fonts ====================================*/
@@ -32,7 +33,7 @@
 
 .nav-link:hover {
     color: white;
-    background-color: black;
+    background-color: hsl(230, 69%, 10%);
 }
 
 .navbar-brand {
@@ -45,7 +46,7 @@
 
 /*==================================== Home section ====================================*/
 .home {
-    background: var(--home-bg-color) url("") no-repeat;
+    background: url("./assets/mainImage.png") no-repeat var(--home-bg-color);
     background-size: cover;
     width: 100vw;
 }
@@ -61,7 +62,12 @@
     width: 120%;
 }
 
-
 #\& {
     font-family: cursive;
+}
+
+/*==================================== About section ====================================*/
+.about {
+    background-color: var(--about-bg-color);
+    color: white;
 }
