@@ -61,7 +61,7 @@
 .home h6{
     line-height: 1;
     border-bottom: 3px solid red;
-    width: 120%;
+    width: 36%;
 }
 
 #\& {
@@ -74,3 +74,30 @@
     color: black;
 }
 
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: hsl(230, 69%, 10%);
+}
+
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: hsl(230, 69%, 10%);
+}
