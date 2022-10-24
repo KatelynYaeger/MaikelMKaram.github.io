@@ -69,6 +69,17 @@
     font-family: cursive;
 }
 
+#m{
+    font-family: cursive;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+#k{
+    color: red;
+    font-weight: lighter;
+}
+
 .linkedInBtn {
     border-radius: 5px;
     border: 2px solid black;
@@ -81,7 +92,7 @@
     border: 2px solid black;
     padding: 5px;
     cursor: pointer;
-    background-color: var(--about-bg-color);
+    background-color: #f2f1ef;
 }
 
 .githubBtn {
@@ -96,8 +107,9 @@
     border: 2px solid var(--btn-bg-color);
     padding: 5px;
     cursor: pointer;
-    background-color: var(--about-bg-color);
+    background-color: #f2f1ef;
 }
+
 
 /*==================================== About section ====================================*/
 .about {
