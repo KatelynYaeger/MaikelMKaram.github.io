@@ -69,6 +69,36 @@
     font-family: cursive;
 }
 
+.linkedInBtn {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.linkedInBtn:hover {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+    background-color: var(--about-bg-color);
+}
+
+.githubBtn {
+    border-radius: 5px;
+    border: 2px solid var(--btn-bg-color);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.githubBtn:hover {
+    border-radius: 5px;
+    border: 2px solid var(--btn-bg-color);
+    padding: 5px;
+    cursor: pointer;
+    background-color: var(--about-bg-color);
+}
+
 /*==================================== About section ====================================*/
 .about {
     background: linear-gradient(to bottom right, var(--about-bg-color), white);
