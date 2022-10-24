@@ -104,18 +104,3 @@
     background-color: var(--btn-bg-color);
     transition: 0.4s;
 }
-
-.btn3{
-    height: 40px;
-    width: 145px;
-    outline: none;
-    border: none;
-    background-color: white;
-    color: black;
-}
-
-.btn3:hover {
-    color: white;
-    background-color: var(--btn-bg-color);
-    transition: 0.4s;
-}
