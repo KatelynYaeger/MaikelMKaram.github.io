@@ -4,6 +4,7 @@
 /*==================================== Colors ====================================*/
 /* HSL color mode */
 :root{
+    --btn-bg-color: hsl(230, 69%, 10%);
     --home-bg-color: whitesmoke;
     --about-bg-color: #dadfe1;
 }
@@ -33,7 +34,7 @@
 
 .nav-link:hover {
     color: white;
-    background-color: hsl(230, 69%, 10%);
+    background-color: var(--btn-bg-color);
     /*background-color: black;*/
 }
 
@@ -85,7 +86,8 @@
 
 .btn1:hover {
     color: white;
-    background-color: hsl(230, 69%, 10%);
+    background-color: var(--btn-bg-color);
+    transition: 0.4s;
 }
 
 .btn2{
@@ -99,5 +101,21 @@
 
 .btn2:hover {
     color: white;
-    background-color: hsl(230, 69%, 10%);
+    background-color: var(--btn-bg-color);
+    transition: 0.4s;
+}
+
+.btn3{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn3:hover {
+    color: white;
+    background-color: var(--btn-bg-color);
+    transition: 0.4s;
 }
