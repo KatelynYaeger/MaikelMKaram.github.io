@@ -197,7 +197,7 @@
 
 .card:hover .img2 img {
     border-color: var(--btn-bg-color);
-    transition: 0.8s;
+    transition: 0.4s;
 }
 
 .main-text {
