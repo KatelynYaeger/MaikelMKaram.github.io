@@ -46,6 +46,16 @@
     text-decoration: none;
 }
 
+#m{
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#k{
+    color: red;
+}
+
 /*==================================== Home section ====================================*/
 .home {
     background: linear-gradient(to bottom right, var(--home-bg-color), white);
@@ -67,16 +77,6 @@
 
 #\& {
     font-family: cursive;
-}
-
-#m{
-    font-family: cursive;
-    font-size: 1.5em;
-    font-weight: bolder;
-}
-
-#k{
-    color: red;
 }
 
 .linkedInBtn {
