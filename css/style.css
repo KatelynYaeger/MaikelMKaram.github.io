@@ -146,6 +146,10 @@
     transition: 0.4s;
 }
 
+.aboutPhoto {
+    height: 500px;
+}
+
 /*==================================== Portfolio section ====================================*/
 
 .control ul li {
