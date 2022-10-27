@@ -5,7 +5,7 @@
 /* HSL color mode */
 :root{
     --btn-bg-color: hsl(230, 69%, 10%);
-    --home-bg-color: whitesmoke;
+    --intro-bg-color: whitesmoke;
     --about-bg-color: #dadfe1;
     --bglight-bg-color: #f8f9fa;
 }
@@ -57,7 +57,7 @@
     color: red;
 }
 
-/*==================================== Home section ====================================*/
+/*==================================== Intro section ====================================*/
 .home {
     background: linear-gradient(to bottom right, var(--home-bg-color), white);
     background-size: cover;
