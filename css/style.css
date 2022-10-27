@@ -59,7 +59,7 @@
 
 /*==================================== Intro section ====================================*/
 .intro {
-    background: linear-gradient(to bottom right, var(--home-bg-color), white);
+    background: linear-gradient(to bottom right, var(--intro-bg-color), white);
     background-size: cover;
     width: 100vw;
     color: black;
