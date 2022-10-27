@@ -7,6 +7,7 @@
     --btn-bg-color: hsl(230, 69%, 10%);
     --home-bg-color: whitesmoke;
     --about-bg-color: #dadfe1;
+    --bglight-bg-color: #f8f9fa;
 }
 
 /*==================================== Google Fonts ====================================*/
@@ -66,7 +67,7 @@
 
 .home h3{
     font-size: 4.4rem;
-    font-we;ight: 700;
+    font-weight: 700;
 }
 
 .home h6{
@@ -87,11 +88,10 @@
 }
 
 .linkedInBtn:hover {
-    border-radius: 5px;
-    border: 2px solid black;
-    padding: 5px;
+    transition: 0.4s;
+    border-radius: 10px;
+    border: 3px solid green;
     cursor: pointer;
-    background-color: #f2f1ef;
 }
 
 .githubBtn {
@@ -102,11 +102,10 @@
 }
 
 .githubBtn:hover {
-    border-radius: 5px;
-    border: 2px solid var(--btn-bg-color);
-    padding: 5px;
+    transition: 0.4s;
+    border-radius: 10px;
+    border: 3px solid green;
     cursor: pointer;
-    background-color: #f2f1ef;
 }
 
 
@@ -171,8 +170,8 @@
     height: 30px;
     width: 100px;
     outline: none;
+    background: var(--bglight-bg-color);
     border: none;
-    background-color: var(--about-bg-color);
     color: black;
 }
 
