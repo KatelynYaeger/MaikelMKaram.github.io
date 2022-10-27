@@ -82,29 +82,29 @@
 
 .linkedInBtn {
     border-radius: 5px;
-    border: 2px solid black;
-    padding: 5px;
+    border: 2px solid var(--btn-bg-color);
+    padding: 6px;
     cursor: pointer;
 }
 
 .linkedInBtn:hover {
     transition: 0.4s;
     border-radius: 10px;
-    border: 3px solid green;
+    border: 2px solid var(--btn-bg-color);
     cursor: pointer;
 }
 
 .githubBtn {
     border-radius: 5px;
     border: 2px solid var(--btn-bg-color);
-    padding: 5px;
+    padding: 6px;
     cursor: pointer;
 }
 
 .githubBtn:hover {
     transition: 0.4s;
     border-radius: 10px;
-    border: 3px solid green;
+    border: 2px solid var(--btn-bg-color);
     cursor: pointer;
 }
 
