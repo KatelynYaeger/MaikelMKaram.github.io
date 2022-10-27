@@ -168,17 +168,17 @@
 
 /*Project Cards CSS */
 .btn3{
-    height: 40px;
-    width: 145px;
+    height: 30px;
+    width: 100px;
     outline: none;
     border: none;
-    background-color: whitesmoke;
+    background-color: var(--about-bg-color);
     color: black;
 }
 
 .btn3:hover {
     color: white;
-    background-color: var(--btn-bg-color);
+    background-color: green;
     transition: 0.4s;
 }
 
