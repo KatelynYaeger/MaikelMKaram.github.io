@@ -58,19 +58,19 @@
 }
 
 /*==================================== Intro section ====================================*/
-.home {
+.intro {
     background: linear-gradient(to bottom right, var(--home-bg-color), white);
     background-size: cover;
     width: 100vw;
     color: black;
 }
 
-.home h3{
+.intro h3{
     font-size: 4.4rem;
     font-weight: 700;
 }
 
-.home h6{
+.intro h6{
     line-height: 1;
     border-bottom: 3px solid red;
     width: 36%;
