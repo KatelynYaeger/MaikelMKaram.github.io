@@ -148,7 +148,7 @@
 
 /*==================================== Portfolio section ====================================*/
 
-.control ul li {
+.btn4{
     width: 125px;
     list-style: none;
     background-color: var(--btn-bg-color);
@@ -159,7 +159,7 @@
     letter-spacing: 2px;
 }
 
-.control ul li:hover {
+.btn4:hover{
     background-color: whitesmoke;
     color: var(--btn-bg-color);
     transition: 0.4s;
