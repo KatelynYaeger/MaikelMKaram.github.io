@@ -50,7 +50,6 @@
 #m{
     font-family: cursive;
     font-size: 1.5em;
-    font-weight: bolder;
 }
 
 #k{
@@ -147,15 +146,15 @@
 
 .carousel-item {
     border-top: 10px;
-    border-left: 10px;
-    border-right: 10px;
+    border-left: 4px;
     border-bottom: 10px;
+    border-right: 4px;
     border-color: #fff;
     border-style: solid;
 }
 
 .carousel-inner {
-    width: 392px;
+    width: 382px;
 }
 
 /*==================================== Portfolio section ====================================*/
