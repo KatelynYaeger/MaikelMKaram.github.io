@@ -221,3 +221,20 @@
 .date-container .date{
     font-size: 30px;
 }
+
+#ArbText01 {
+    position:absolute;
+    top:130px;
+    right:10px;
+    font-family:"adobe arabic";
+    font-size:30px;
+    color:#fb5e08;
+    padding-top:0px;
+    padding-bottom:0px;
+    direction:rtl;
+}
+
+
+/*.display-1 {*/
+/*    font-family:*/
+/*}*/
