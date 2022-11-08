@@ -107,7 +107,7 @@
 }
 
 
-/*==================================== About section ====================================*/
+/*==================================== About Me ====================================*/
 .about {
     background: linear-gradient(to bottom right, var(--about-bg-color), white);
     color: black;
@@ -220,18 +220,6 @@
 
 .date-container .date{
     font-size: 30px;
-}
-
-#ArbText01 {
-    position:absolute;
-    top:130px;
-    right:10px;
-    font-family:"adobe arabic";
-    font-size:30px;
-    color:#fb5e08;
-    padding-top:0px;
-    padding-bottom:0px;
-    direction:rtl;
 }
 
 
