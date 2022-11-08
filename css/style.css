@@ -113,6 +113,10 @@
     color: black;
 }
 
+#arbtext1 {
+    color: black;
+}
+
 .btn1{
     height: 40px;
     width: 145px;
@@ -157,6 +161,10 @@
 }
 
 /*==================================== Portfolio section ====================================*/
+
+.portfolio {
+    background: linear-gradient(to top left, whitesmoke, white);
+}
 
 .btn4{
     width: 125px;
