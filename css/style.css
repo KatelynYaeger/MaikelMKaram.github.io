@@ -56,6 +56,10 @@
 }
 
 /*==================================== Intro section ====================================*/
+.under-construction{
+    color: darkred;
+}
+
 .intro {
     background:linear-gradient(to bottom right, var(--intro-bg-color), white);
     background-size: cover;
