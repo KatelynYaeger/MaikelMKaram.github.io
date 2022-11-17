@@ -82,6 +82,7 @@
     border: 2px solid var(--btn-bg-color);
     padding: 4px;
     cursor: pointer;
+    background-color: white;
 }
 
 .linkedInBtn:hover {
@@ -96,6 +97,7 @@
     border: 2px solid var(--btn-bg-color);
     padding: 4px;
     cursor: pointer;
+    background-color: white;
 }
 
 .githubBtn:hover {
